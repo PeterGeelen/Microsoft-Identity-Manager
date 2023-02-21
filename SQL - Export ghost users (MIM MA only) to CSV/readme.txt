@@ -1,0 +1,11 @@
+For various reasons (from misconfiguration to system disaster recovery), you can end up with orphaned users and groups in the MIM portal.
+
+ 
+
+The scripts below allow you to run a query on the MIM sync database, then list the ghostobjects. Next, you need to feed that output (with CSV) to a powerShell script against the MIM service, to remove the users from the MIM portal.
+
+  
+
+ 
+
+More details: https://social.technet.microsoft.com/wiki/contents/articles/51710.mim-2016-finding-removing-orphaned-users-and-groups-in-mim-portal.aspx
